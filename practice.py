@@ -120,3 +120,43 @@
 # age=20
 # color="노란"
 # print(f"나는 {age}살이고, {color}색을 좋아해요.")
+
+# #탈출 문자
+# print("백문이\n불여일견")
+# print("저는 \"학생\"입니다.") #문장 내에서 따옴표
+# print("안녕\\하이") #문장 내에서 \
+# print("Red Apple\rPine") #커서를 맨 앞으로 이동
+# print("Redd\bApple") #백스페이스(한글자 지움)
+# print("Red\tApple") #탭
+
+# #비밀번호 만들기 예제
+# site="http://naver.com"
+# st=site.replace("http://","") # http:// 제거
+# st=st[:st.index(".")] # .com 제거
+# pw=st[:3]+str(len(st))+str(st.count("e"))+"!"
+# print(pw)
+
+#리스트[]
+subway=[10,20,30]
+print(subway)
+subway.append(40) #맨 뒤에 40 넣기
+print(subway)
+print(subway.index(20)) # 20의 index알기
+subway.insert(1,50) # 1번째에 50넣기
+print(subway)
+print(subway.pop()) # 맨뒤 꺼내기
+print(subway)
+subway.append(20)
+print(subway.count(20)) # 20의 개수 알기
+subway.sort()
+print(subway)
+subway.reverse() # 순서 뒤집기
+print(subway)
+subway.clear() # 모두 지우기
+print(subway)
+
+mix_list=[10,"안녕",True] # 다양한 자료형 가능
+print(mix_list)
+list=["하이",20]
+mix_list.extend(list) # 합치기
+print(mix_list)
