@@ -104,4 +104,3 @@ print(drink, type(drink))
 
 drink = set(drink)
 print(drink, type(drink))
-

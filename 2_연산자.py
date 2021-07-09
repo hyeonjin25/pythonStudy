@@ -32,3 +32,9 @@ print(int(random()*10)) # 0 ~ 10 미만의 임의의 값 생성
 print(int(random()*10 + 1)) # 0 ~ 10 이하의 임의의 값 생성
 print(randrange(1,45)) # 1 ~ 45 미만의 임의의 값 생성
 print(randint(1,45)) # 1 ~ 45 이하의 임의의 값 생성
+
+list = [1,2,3,4,5]
+print(list)
+shuffle(list) #무작위로 순서 섞음
+print(list)
+print(sample(list,1)) # list에서 1개 뽑음
