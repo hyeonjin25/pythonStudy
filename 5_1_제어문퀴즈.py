@@ -16,7 +16,7 @@ from random import *
 
 total=0
 for client in range(1,51):
-    time = int(randint(5,50))
+    time = randrange(5,51)
     if 5 <= time <= 15:
         check="o"
         total+=1
